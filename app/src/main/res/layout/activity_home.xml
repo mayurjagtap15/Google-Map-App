@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map4"
+    tools:context=".HomeActivity">
+
+
+<!--    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One Touch Navigation"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textColor="@color/colorBlack"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        />-->
+
+  <Button
+      android:id="@+id/btndistance"
+      android:layout_width="130dp"
+      android:textStyle="bold"
+      android:layout_height="wrap_content"
+      android:text="Find Distance"
+      android:fontFamily="monospace"
+      android:layout_marginTop="125dp"
+      android:layout_centerHorizontal="true"
+      android:background="@color/colorAccent"
+      android:textColor="@color/colorGrey"
+
+      />
+
+  <!--<TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Path Finder"
+      android:textSize="25sp"
+      android:textColor="@color/colorGrey"
+      android:fontFamily="serif-monospace"
+      android:textStyle="bold"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="20dp"
+      />-->
+
+    <!--<Button
+        android:id="@+id/btnheading"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="One Touch Navigation"
+        android:fontFamily="serif-monospace"
+        android:background="@color/colorLighBrown"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />-->
+
+    <Button
+        android:id="@+id/btntrack"
+        android:textColor="@color/colorGrey"
+        android:background="@color/colorAccent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="track me"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_below="@id/btndirection"
+        android:layout_marginTop="25dp"
+        android:fontFamily="monospace"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:id="@+id/btndirection"
+        android:background="@color/colorAccent"
+        android:layout_width="150dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorGrey"
+        android:layout_height="wrap_content"
+        android:text="get direction"
+        android:textSize="15sp"
+        android:fontFamily="monospace"
+        android:layout_below="@+id/btndistance"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+ <!-- <TextView
+      android:id="@+id/mayur"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Developed By Mayur"
+      android:textColor="@color/colorGrey"
+      android:textStyle="bold"
+      android:textSize="14sp"
+      android:fontFamily="casual"
+      android:layout_below="@+id/btntrack"
+      android:layout_marginTop="210dp"
+      android:layout_marginLeft="200dp"
+      />-->
+
+ <!-- <Button
+      android:id="@+id/btnguide"
+      android:layout_width="100dp"
+      android:layout_height="25dp"
+      android:text="User Guide"
+      android:background="@color/colorAccent"
+      android:textColor="@color/colorGrey"
+      android:textStyle="bold"
+      android:fontFamily="monospace"
+      android:layout_below="@+id/btntrack"
+      android:layout_marginTop="200dp"
+      android:layout_alignParentRight="true"
+      />
+
+-->
+
+</RelativeLayout>
